@@ -183,7 +183,7 @@ div#notebook {
 </li>
 </ul>
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>This document details the simulation results from the two target tracking problem. The problem has already been <a href="two_object_tracking.pdf">described in detail</a>, so I won't repeat anything. I also haven't included any code, because its <a href="tracking.html">incredibly unsightly</a> and of no use to anyone.</p>
-<p>The models used for each target are identical and unchanged from the <a href="kalman_filtering.html">previous implementation</a>. The priors are also identical, unless otherwise stated. The results only document $x$ and $z$ positions, as it can be seen from the figure below the $y$ position doesn't do much. Also plotting ellipsoids is difficult.</p>
+<p>The models used for each target are identical and unchanged from the <a href="kalman_filtering.html">previous implementation</a>. The priors are also identical, unless otherwise stated. The results only document $x$ and $z$ positions for variables $\pmb{x}_{1}^{t}$, as it can be seen from the figure below the $y$ position doesn't do much. Also plotting ellipsoids is difficult.</p>
 <p><img src="images/trajectories.png"></p>
 <center> <b> Figure 1: The trajectories of the two targets used in the simulation. </b> </center><h2 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h2><p><img src="images/two_objects/two_objects_hl.gif"></p>
 <center> <b> Figure 2: Higher process noise, lower measurement noise. </b> </center><p><img src="images/two_objects/two_objects_lh.gif"></p>
